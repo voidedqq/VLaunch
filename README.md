@@ -4,7 +4,7 @@
 
 ### modern launcher for Windows
 
-premium launcher inspired by Raycast and Spotlight
+Windows launcher inspired by Raycast and Spotlight
 
 ---
 
