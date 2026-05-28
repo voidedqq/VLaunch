@@ -35,8 +35,7 @@ Instead of navigating through cluttered menus and desktop shortcuts, VLaunch let
 
 * app launching
 * keyboard-focused workflow
-* glassmorphism ui
-* local-first configuration
+* local configuration
 * recent searches
 * json theme system
 * configurable hotkeys
