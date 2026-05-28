@@ -5,7 +5,7 @@
 ### modern launcher for Windows
 
 <div align="center">
-  <img src="preview.png" width="900">
+  <img src="VLaunch.png" width="900">
 </div>
 
 Windows launcher inspired by Raycast and Spotlight
