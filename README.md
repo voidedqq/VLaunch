@@ -6,7 +6,11 @@
 
 <img src="VLaunch.png" width="900">
 
-Keyboard-focused application launcher inspired by Raycast and Spotlight.
+Fast. Lightweight. Keyboard-first.
+
+Launch applications, access tools, and stay focused without digging through menus.
+
+Built for people who prefer their keyboard over their mouse.
 
 <br>
 
@@ -22,53 +26,91 @@ Keyboard-focused application launcher inspired by Raycast and Spotlight.
 ## Table of Contents
 
 * [Introduction](#introduction)
+* [Why VLaunch?](#why-vlaunch)
 * [Features](#features)
+* [Feature Status](#feature-status)
 * [Installation](#installation)
 * [Theming](#theming)
+* [Built-in Themes](#built-in-themes)
 * [Local Storage](#local-storage)
 * [Roadmap](#roadmap)
+* [Philosophy](#philosophy)
 * [Screenshots](#screenshots)
+* [Credits](#credits)
 * [License](#license)
 
 ---
 
 ## Introduction
 
-VLaunch is a modern launcher for Windows built with C# and WPF.
+VLaunch is a modern Windows launcher built with C# and WPF.
 
-Designed around speed and keyboard-first workflows, VLaunch allows you to instantly launch applications without digging through desktop shortcuts, folders, or the Start Menu.
+Designed around speed and keyboard-first workflows, VLaunch allows you to instantly launch applications without navigating through desktop shortcuts, folders, or the Start Menu.
 
-The project takes inspiration from Raycast, Spotlight, Flow Launcher, and other productivity-focused launchers while maintaining its own lightweight and customizable approach.
+The project takes inspiration from Raycast, Spotlight, Flow Launcher, and PowerToys Run while maintaining a lightweight and highly customizable approach.
+
+---
+
+## Why VLaunch?
+
+Most Windows launchers are either bloated, outdated, or overloaded with features most users never touch.
+
+VLaunch focuses on the essentials:
+
+* Fast application launching
+* Clean modern interface
+* Local-first configuration
+* Lightweight resource usage
+* Customizable themes
+* No accounts
+* No subscriptions
+* No telemetry
 
 ---
 
 ## Features
 
 * Fast application launching
-* Keyboard-first workflow
+* Keyboard-focused workflow
 * Search history
-* System tray support
+* System tray integration
+* Startup support
 * Local configuration
-* JSON-based theming
+* JSON-based theme system
 * Custom hotkeys
-* Modern glass-inspired interface
 * Lightweight design
-* Fully local data storage
+* Modern glass-inspired interface
+
+---
+
+## Feature Status
+
+| Feature               | Status |
+| --------------------- | ------ |
+| Application Launching | ✅      |
+| Search History        | ✅      |
+| System Tray           | ✅      |
+| Theme System          | ✅      |
+| Startup Support       | ✅      |
+| Custom Hotkeys        | 🚧     |
+| Settings Page         | 🚧     |
+| File Search           | 📅     |
+| Plugin System         | 📅     |
+| Command Palette       | 📅     |
 
 ---
 
 ## Installation
 
 1. Download the latest release from the Releases page.
-2. Run the installer.
-3. Complete setup.
-4. Launch VLaunch from the Start Menu or desktop shortcut.
+2. Run `VLaunchSetup.exe`.
+3. Complete the installation.
+4. Launch VLaunch from the desktop or Start Menu.
 
 ### Requirements
 
-* PC
-* x64
-* Windows
+* Windows 10 or Windows 11
+* x64 processor
 
 ---
 
@@ -99,7 +141,23 @@ Theme files are stored in:
 %AppData%\VLaunch\Themes
 ```
 
-Users can create their own themes by adding additional JSON files to the Themes folder.
+Users can create and share custom themes by adding additional JSON files to the Themes folder.
+
+---
+
+## Built-in Themes
+
+Current bundled themes:
+
+* Dark Glass
+* Void Glass
+* Midnight Neon
+* AMOLED
+* Catppuccin Mocha
+* HyperX
+* Nothing
+
+More themes will be added in future releases.
 
 ---
 
@@ -122,8 +180,13 @@ VLaunch
 └── Themes
     ├── DarkGlass.json
     ├── AMOLED.json
+    ├── Nothing.json
     └── CustomTheme.json
 ```
+
+No cloud services are used.
+
+No user data is collected.
 
 ---
 
@@ -135,13 +198,36 @@ VLaunch
 * Startup wizard
 * Settings page
 * Better application indexing
-* File search
+* File searching
 * Command palette
-* Plugin system
-* Custom launcher commands
-* Improved animations
+* Plugin support
+* Custom commands
 * Additional theme customization
 * More built-in themes
+* Improved animations
+* Theme marketplace
+
+---
+
+## Philosophy
+
+VLaunch is built around a simple idea:
+
+The launcher should get out of your way.
+
+No cloud accounts.
+
+No subscriptions.
+
+No unnecessary background services.
+
+Open.
+
+Search.
+
+Launch.
+
+Done.
 
 ---
 
@@ -153,11 +239,24 @@ VLaunch
 
 ---
 
+## Credits
+
+Inspired by:
+
+* Raycast
+* Spotlight
+* Flow Launcher
+* PowerToys Run
+
+---
+
 ## Status
 
 VLaunch is currently in beta and under active development.
 
 Features, behavior, and configuration options may change between releases.
+
+Feedback, bug reports, and suggestions are welcome.
 
 ---
 
