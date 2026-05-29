@@ -34,7 +34,6 @@ Built for people who prefer their keyboard over their mouse.
 * [Built-in Themes](#built-in-themes)
 * [Local Storage](#local-storage)
 * [Roadmap](#roadmap)
-* [Philosophy](#philosophy)
 * [Screenshots](#screenshots)
 * [Thanks](#thanks)
 * [Credits](#credits)
