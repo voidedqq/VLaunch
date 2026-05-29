@@ -66,8 +66,9 @@ The project takes inspiration from Raycast, Spotlight, Flow Launcher, and other 
 
 ### Requirements
 
-* Windows 10 or Windows 11
-* x64 processor
+* PC
+* x64
+* Windows
 
 ---
 
