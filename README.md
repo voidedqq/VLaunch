@@ -36,6 +36,7 @@ Built for people who prefer their keyboard over their mouse.
 * [Roadmap](#roadmap)
 * [Philosophy](#philosophy)
 * [Screenshots](#screenshots)
+* [Thanks](#thanks)
 * [Credits](#credits)
 * [License](#license)
 
@@ -209,28 +210,6 @@ No user data is collected.
 
 ---
 
-## Philosophy
-
-VLaunch is built around a simple idea:
-
-The launcher should get out of your way.
-
-No cloud accounts.
-
-No subscriptions.
-
-No unnecessary background services.
-
-Open.
-
-Search.
-
-Launch.
-
-Done.
-
----
-
 ## Screenshots
 
 ### Main Window
@@ -247,6 +226,18 @@ Inspired by:
 * Spotlight
 * Flow Launcher
 * PowerToys Run
+
+---
+
+## Thanks
+
+Special thanks to:
+
+* **@solaenum** — for calling it a virus
+* **@jib123w** — for testing it
+* **@goonoftheforce** — for testing it
+
+ily
 
 ---
 
