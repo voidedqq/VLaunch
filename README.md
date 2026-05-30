@@ -116,24 +116,7 @@ VLaunch focuses on the essentials:
 
 ## Theming
 
-VLaunch supports custom JSON themes.
-
-Example theme:
-
-```json
-{
-  "Name": "Dark Glass",
-  "Background": "#991F1F23",
-  "SearchBackground": "#552C2C31",
-  "Accent": "#8B5CF6",
-  "Text": "#FFFFFF",
-  "MutedText": "#99FFFFFF",
-  "Border": "#30FFFFFF",
-  "CornerRadius": 18,
-  "SearchRadius": 16,
-  "Blur": true
-}
-```
+VLaunch supports fully customizable JSON themes.
 
 Theme files are stored in:
 
@@ -141,7 +124,170 @@ Theme files are stored in:
 %AppData%\VLaunch\Themes
 ```
 
-Users can create and share custom themes by adding additional JSON files to the Themes folder.
+Every `.json` file inside this folder will automatically appear in the theme picker.
+
+### Example Theme
+
+```json
+{
+  "Name": "VLaunch",
+  "Background": "#FF15151D",
+  "SearchBackground": "#FF1E1E28",
+  "Accent": "#8B5CF6",
+  "Text": "#FFFFFF",
+  "MutedText": "#9A9AA6",
+  "Border": "#FF2B2B36",
+  "CornerRadius": 24,
+  "SearchRadius": 18,
+  "Blur": true
+}
+```
+
+### Theme Properties
+
+| Property         | Description                                |
+| ---------------- | ------------------------------------------ |
+| Name             | Theme name displayed inside VLaunch        |
+| Background       | Main launcher background                   |
+| SearchBackground | Search bar background                      |
+| Accent           | Accent color used throughout the interface |
+| Text             | Primary text color                         |
+| MutedText        | Secondary text color                       |
+| Border           | Border color                               |
+| CornerRadius     | Main launcher corner radius                |
+| SearchRadius     | Search bar corner radius                   |
+| Blur             | Enables blur effects when supported        |
+
+---
+
+### Understanding Colors
+
+VLaunch uses hexadecimal color values.
+
+Standard colors use:
+
+```txt
+#RRGGBB
+```
+
+Example:
+
+```txt
+#8B5CF6
+```
+
+Purple.
+
+You can also use transparency:
+
+```txt
+#AARRGGBB
+```
+
+Where:
+
+```txt
+AA = transparency
+RR = red
+GG = green
+BB = blue
+```
+
+Examples:
+
+| Value | Transparency |
+| ----- | ------------ |
+| FF    | 100% visible |
+| E6    | 90% visible  |
+| CC    | 80% visible  |
+| 99    | 60% visible  |
+| 66    | 40% visible  |
+| 33    | 20% visible  |
+| 00    | Invisible    |
+
+Example:
+
+```txt
+#FF15151D
+```
+
+Fully opaque dark background.
+
+Example:
+
+```txt
+#9915151D
+```
+
+Semi-transparent dark background.
+
+Example:
+
+```txt
+#3315151D
+```
+
+Very transparent dark background.
+
+---
+
+### Transparency Tips
+
+For most themes, it is recommended to keep transparency relatively low.
+
+Good:
+
+```txt
+#FF15151D
+#E615151D
+#CC15151D
+```
+
+Usually too transparent:
+
+```txt
+#9915151D
+#6615151D
+#3315151D
+```
+
+Excessive transparency can make text harder to read and may reduce visual consistency across different Windows setups.
+
+---
+
+### Corner Radius
+
+Corner radius controls how rounded the launcher appears.
+
+Examples:
+
+```txt
+8   = subtle rounding
+16  = modern
+24  = default VLaunch style
+32+ = very rounded
+```
+
+---
+
+### Blur
+
+```json
+"Blur": true
+```
+
+Enables blur effects when supported.
+
+```json
+"Blur": false
+```
+
+Disables blur effects.
+
+---
+
+After saving a theme file, open the theme picker and select it instantly without restarting VLaunch.
+
 
 ---
 
