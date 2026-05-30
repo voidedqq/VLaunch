@@ -295,13 +295,11 @@ After saving a theme file, open the theme picker and select it instantly without
 
 Current bundled themes:
 
+* VLaunch (Standard)
 * Dark Glass
-* Void Glass
-* Midnight Neon
-* AMOLED
-* Catppuccin Mocha
-* HyperX
-* Nothing
+* Nord
+* Tokyo Night
+
 
 More themes will be added in future releases.
 
